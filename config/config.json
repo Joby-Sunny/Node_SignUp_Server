@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "gloify",
+    "password": "password",
+    "database": "node_auth_server",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "gloify",
+    "password": "password",
+    "database": "node_auth_server",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "gloify",
+    "password": "password",
+    "database": "node_auth_server",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
