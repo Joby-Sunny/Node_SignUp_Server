@@ -21,7 +21,7 @@ const userSignUp = async (req, res) => {
       res.status(409).send({
         message: constant.ALREADY_REGISTERED,
         error: true,
-        data: isUserAvalible //for development purpose;
+        data: {}
       });
     } else {
       const newUser = await User.create({...req.body, isActive: true});
