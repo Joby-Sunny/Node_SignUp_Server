@@ -19,7 +19,11 @@ const validateRoute = async (req, res, next) => {
       next();
     } else {
       logger.error(req);
-      res.status(401).send({message: 'User not authenticated.'});
+      res.status(401).send({
+        message: constant.AUTHENTICATION_ERROR,
+        error: true,
+        data: {}
+      });
     }
   } catch (error) {
     logger.error(req);

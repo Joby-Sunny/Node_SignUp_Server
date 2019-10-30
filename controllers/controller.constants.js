@@ -5,6 +5,6 @@ module.exports = {
   USER_INACTIVE: 'User is not Active.',
   USER_PASSWORD_INCORRECT: 'Password is incorrect.',
   LOGIN_SUCCESSFUL: 'User Login Successful',
-  AUTHENTICATION_ERROR: 'User is unauthorized to use this service',
+  AUTHENTICATION_ERROR: 'User is not authenticated',
   USER_DETAILS_FETCH_SUCCESS: 'User details fetched successfully'
 };
