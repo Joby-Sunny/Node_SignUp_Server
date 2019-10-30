@@ -13,7 +13,7 @@
    - Install dependencies using **npm** **install**.
    - Install and setup mysql in your system.
    - Create a database of your choice and update databasename and
-     usercredentials on **/config/config.json**.
+     mysqlcredentials on **/config/config.json**.
    - Install **sequelize-cli** using command **npm** **install** **-g**
      **sequelize-cli**.
    - Migrate the tables using **sequelize** **db:migrate**.
