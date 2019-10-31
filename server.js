@@ -1,5 +1,9 @@
-const {express, bodyParser, cors} = require('./libraries');
+const {express, bodyParser, cors, db} = require('./libraries');
 const router = require('./routes/routes');
+
+// Connecting to database:
+db.sequelize.sync();
+// add sync({force: true}) to drop tables and create new forcefully.
 
 const app = express();
 

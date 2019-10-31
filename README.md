@@ -14,11 +14,6 @@
    - Install and setup mysql in your system.
    - Create a database of your choice and update databasename and
      usercredentials on **/config/config.json**.
-   - Install **sequelize-cli** using command **npm** **install** **-g**
-     **sequelize-cli**.
-   - Migrate the tables using **sequelize** **db:migrate**.
-     - This creates the tables in your database. You can manually query
-       database to see table.
    - Now you can simple start the server using **npm** **start** and test
      the routes.
 
